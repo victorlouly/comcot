@@ -21,12 +21,12 @@ const App = () => {
         },
       },
       palette: {
-        primary: { main: '#0872b9' },
+        primary: { main: '#1057b2' },
         danger: { main: '#525252' },
       },
 
       barraSuperior: {
-        primary: { main: "linear-gradient(to right, #044842, #044842 , #ffffff)" },
+        primary: { main: "linear-gradient(to right, #1057b2, #1057b2 , #ffffff)" },
         secondary: { main: "#ffffff" },
       },
 
@@ -35,11 +35,11 @@ const App = () => {
       },
 
       icons: {
-        primary: { main: "#044842" }
+        primary: { main: "#1057b2" }
       },
       textColorMenu: {
         primary: { main: "#000000" },
-        secondary: { main: "#044842" }
+        secondary: { main: "#1057b2" }
       
       },    },
     locale
