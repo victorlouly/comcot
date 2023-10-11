@@ -234,7 +234,7 @@ const NotificationsPopOver = () => {
           ) : (
             notifications.map((ticket) => (
               <NotificationTicket key={ticket.id}>
-                <TicketListItemCustom ticket={ticket}  style={{ fill: "#10468f" }} />
+                <TicketListItemCustom ticket={ticket}  style={{ fill: "#FFFFFF" }} />
               </NotificationTicket>
             ))
           )}

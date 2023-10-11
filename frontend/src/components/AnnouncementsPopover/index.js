@@ -246,7 +246,7 @@ export default function AnnouncementsPopover() {
           variant="dot"
           invisible={invisible || announcements.length < 1}
         >
-          <AnnouncementIcon style={{ fill: "#10468f" }} />
+          <AnnouncementIcon style={{ fill: "#FFFFFF" }} />
         </Badge>
       </IconButton>
       <Popover

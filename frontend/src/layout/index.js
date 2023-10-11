@@ -273,11 +273,11 @@ const LoggedInLayout = ({ children }) => {
               user.name
             )}
           </Typography>
-          {user.id && <NotificationsPopOver />}
+          {user.id && <NotificationsPopOver style={{ fill: "#FFFFFF" }} />}
 
-          <AnnouncementsPopover />
+          <AnnouncementsPopover style={{ fill: "#FFFFFF" }} />
 
-          <ChatPopover />
+          <ChatPopover style={{ fill: "#FFFFFF" }} />
 
           <div>
             <IconButton
@@ -288,7 +288,7 @@ const LoggedInLayout = ({ children }) => {
               variant="contained"
 
             >
-              <AccountCircle />
+              <AccountCircle style={{ fill: "#FFFFFF" }} />
             </IconButton>
             <Menu
               id="menu-appbar"

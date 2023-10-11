@@ -319,7 +319,7 @@ const Dashboard = () => {
           headerColor="#1057b2"
           headerTitle="Suporte ComCot"
           size="50px"
-          message="Digite Aqui..."
+          placeholder="Digite Aqui..."
           /> 
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
