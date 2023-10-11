@@ -31,6 +31,8 @@ import { isArray } from "lodash";
 
 import useDashboard from "../../hooks/useDashboard";
 import useCompanies from "../../hooks/useCompanies";
+import { FloatingWhatsApp } from 'react-floating-whatsapp-button'
+import 'react-floating-whatsapp-button/dist/index.css'
 
 import { isEmpty } from "lodash";
 import moment from "moment";
@@ -309,6 +311,13 @@ const Dashboard = () => {
               loading={loading}
             />
           </Grid>
+          < FloatingWhatsApp  
+          phone="+5562982439372"
+          popupMessage="Olá, como podemos te ajudar"
+          backgroundColor="#1057b2"
+          position="right"
+          headerColor="#1057b2"
+          /> 
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
               icon={<SpeedIcon fontSize="inherit" />}
