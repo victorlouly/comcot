@@ -313,10 +313,13 @@ const Dashboard = () => {
           </Grid>
           < FloatingWhatsApp  
           phone="+5562982439372"
-          popupMessage="Olá, como podemos te ajudar"
+          popupMessage="Olá, como podemos te ajudar ?"
           backgroundColor="#1057b2"
           position="right"
           headerColor="#1057b2"
+          headerTitle="Suporte ComCot"
+          size="50px"
+          message="Digite Aqui..."
           /> 
           <Grid item xs={12} sm={6} md={4}>
             <CardCounter
