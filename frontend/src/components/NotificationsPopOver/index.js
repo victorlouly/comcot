@@ -209,7 +209,7 @@ const NotificationsPopOver = () => {
         variant="contained"
 
       >
-        <ChatIcon />
+        <ChatIcon style={{ fill: "#FFFFFF" }} />
       </IconButton>
       <Popover
         disableScrollLock
@@ -234,7 +234,7 @@ const NotificationsPopOver = () => {
           ) : (
             notifications.map((ticket) => (
               <NotificationTicket key={ticket.id}>
-                <TicketListItemCustom ticket={ticket}  style={{ fill: "#FFFFFF" }} />
+                <TicketListItemCustom ticket={ticket}  />
               </NotificationTicket>
             ))
           )}
