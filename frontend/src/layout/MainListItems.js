@@ -7,26 +7,27 @@ import ListItemText from "@material-ui/core/ListItemText";
 import ListSubheader from "@material-ui/core/ListSubheader";
 import Divider from "@material-ui/core/Divider";
 import { Badge, Collapse, List } from "@material-ui/core";
-import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
+import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined';
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SyncAltIcon from "@material-ui/icons/SyncAlt";
 import SettingsOutlinedIcon from "@material-ui/icons/SettingsOutlined";
 import PeopleAltOutlinedIcon from "@material-ui/icons/PeopleAltOutlined";
-import ContactPhoneOutlinedIcon from "@material-ui/icons/ContactPhoneOutlined";
-import AccountTreeOutlinedIcon from "@material-ui/icons/AccountTreeOutlined";
+import ThreePOutlinedIcon from '@mui/icons-material/ThreePOutlined';
+import EarbudsOutlinedIcon from '@mui/icons-material/EarbudsOutlined';
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import CodeRoundedIcon from "@material-ui/icons/CodeRounded";
-import EventIcon from "@material-ui/icons/Event";
-import LocalOfferIcon from "@material-ui/icons/LocalOffer";
+import EventRepeatOutlinedIcon from '@mui/icons-material/EventRepeatOutlined';
+import CollectionsBookmarkOutlinedIcon from '@mui/icons-material/CollectionsBookmarkOutlined';
 import EventAvailableIcon from "@material-ui/icons/EventAvailable";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import PeopleIcon from "@material-ui/icons/People";
 import ListIcon from "@material-ui/icons/ListAlt";
 import AnnouncementIcon from "@material-ui/icons/Announcement";
-import ForumIcon from "@material-ui/icons/Forum";
+import SpeakerNotesOutlinedIcon from '@mui/icons-material/SpeakerNotesOutlined';
 import LocalAtmIcon from '@material-ui/icons/LocalAtm';
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
 
 import { i18n } from "../translate/i18n";
 import { WhatsAppsContext } from "../context/WhatsApp/WhatsAppsContext";
@@ -224,7 +225,7 @@ const MainListItems = (props) => {
           <ListItemLink
             to="/"
             primary="Dashboard"
-            icon={<DashboardOutlinedIcon />}
+            icon={<SpaceDashboardOutlinedIcon style={{ fill: "#1057b2" }}  />}
           />
         )}
       />
@@ -238,7 +239,7 @@ const MainListItems = (props) => {
      <ListItemLink
         to="/todolist"
         primary={i18n.t("mainDrawer.listItems.todolist")}
-        icon={<EventIcon style={{ fill: "#1057b2" }}  />}
+        icon={<EventRepeatOutlinedIcon style={{ fill: "#1057b2" }}  />}
         />
 
       <ListItemLink
@@ -250,19 +251,19 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/contacts"
         primary={i18n.t("mainDrawer.listItems.contacts")}
-        icon={<ContactPhoneOutlinedIcon style={{ fill: "#1057b2" }}  />}
+        icon={<ThreePOutlinedIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<EventIcon style={{ fill: "#1057b2" }}  />}
+        icon={<CalendarMonthOutlinedIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
         to="/tags"
         primary={i18n.t("mainDrawer.listItems.tags")}
-        icon={<LocalOfferIcon style={{ fill: "#1057b2" }}  />}
+        icon={<CollectionsBookmarkOutlinedIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
@@ -270,7 +271,7 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.chats")}
         icon={
           <Badge color="secondary" variant="dot" invisible={invisible}>
-            <ForumIcon style={{ fill: "#1057b2" }}  />
+            <SpeakerNotesOutlinedIcon style={{ fill: "#1057b2" }}  />
           </Badge>
         }
       />
@@ -362,7 +363,7 @@ const MainListItems = (props) => {
             <ListItemLink
               to="/queues"
               primary={i18n.t("mainDrawer.listItems.queues")}
-              icon={<AccountTreeOutlinedIcon style={{ fill: "#1057b2" }}  />}
+              icon={<EarbudsOutlinedIcon style={{ fill: "#1057b2" }}  />}
             />
             <ListItemLink
               to="/users"
