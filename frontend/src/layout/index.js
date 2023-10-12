@@ -224,7 +224,7 @@ const LoggedInLayout = ({ children }) => {
         open={drawerOpen}
       >
         <div className={classes.toolbarIcon}>
-          <h1 style={{padding: "0 8px", fontFamily: "Roboto", margin: "-12px 0-12px 0" }}>{user.name}, Seja bem vindo.</h1>
+          <h3 style={{padding: "0 8px", fontFamily: "Roboto", margin: "-12px 0-12px 0" }}>{user.name}, Seja bem vindo.</h3>
           <IconButton onClick={() => setDrawerOpen(!drawerOpen)}>
             <ChevronLeftIcon />
           </IconButton>
