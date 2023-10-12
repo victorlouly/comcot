@@ -311,7 +311,7 @@ const messages = {
           todolist: "Tarefas",
           quickMessages: "Respostas Rápidas",
           contacts: "Contatos",
-          queues: "Departamentos & Chatbot",
+          queues: "Filas & Chatbot",
           tags: "Tags",
           administration: "Administração",
           users: "Usuários",
@@ -548,7 +548,7 @@ const messages = {
         },
       },
       queueSelect: {
-        inputLabel: "Departamentos",
+        inputLabel: "Filas",
       },
       users: {
         title: "Usuários",
