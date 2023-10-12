@@ -268,7 +268,6 @@ const LoggedInLayout = ({ children }) => {
             {greaterThenSm ? (
               <>
               <img src={logo} style={{ margin: "0 auto", height: '100%', width: '7%',alignSelf: 'center' }} alt="logo" />
-                Olá <b>{user.name}</b>, Seja bem vindo.
               </>
             ) : (
               user.name
