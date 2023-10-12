@@ -224,7 +224,7 @@ const LoggedInLayout = ({ children }) => {
         open={drawerOpen}
       >
         <div className={classes.toolbarIcon}>
-          <img src={logo} style={{ margin: "0 auto", height: '100%', width: '57%',alignSelf: 'center' }} alt="logo" />
+        Olá <h1>{user.name}</h1>
           <IconButton onClick={() => setDrawerOpen(!drawerOpen)}>
             <ChevronLeftIcon />
           </IconButton>
@@ -267,7 +267,8 @@ const LoggedInLayout = ({ children }) => {
           >
             {greaterThenSm ? (
               <>
-                Olá <b>{user.name}</b>, Seja bem-vindo.
+              <img src={logo} style={{ margin: "0 auto", height: '100%', width: '57%',alignSelf: 'center' }} alt="logo" />
+                Olá <b>{user.name}</b>, Seja bem vindo.
               </>
             ) : (
               user.name
