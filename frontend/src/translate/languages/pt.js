@@ -252,7 +252,7 @@ const messages = {
         },
       },
       ticketsQueueSelect: {
-        placeholder: "Filas",
+        placeholder: "Departamentos",
       },
       tickets: {
         toasts: {
@@ -531,7 +531,7 @@ const messages = {
         title: "Configurações de Campanhas",
       },
       queues: {
-        title: "Filas & Chatbot",
+        title: "Departamentos & Chatbot",
         table: {
           name: "Nome",
           color: "Cor",
@@ -548,7 +548,7 @@ const messages = {
         },
       },
       queueSelect: {
-        inputLabel: "Filas",
+        inputLabel: "Departamentos",
       },
       users: {
         title: "Usuários",
