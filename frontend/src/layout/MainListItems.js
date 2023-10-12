@@ -224,7 +224,7 @@ const MainListItems = (props) => {
           <ListItemLink
             to="/"
             primary="Dashboard"
-            icon={<DashboardOutlinedIcon />}
+            icon={<DashboardOutlinedIcon style={{ fill: "#1057b2" }} />}
           />
         )}
       />
