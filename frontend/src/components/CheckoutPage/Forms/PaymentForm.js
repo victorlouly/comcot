@@ -113,7 +113,7 @@ export default function Pricing(props) {
         description: [
           `${plansCompanies.users} Usuários`,
           `${plansCompanies.connections} Conexão`,
-          `${plansCompanies.queues} Filas`
+          `${plansCompanies.queues} Departamentos`
         ],
         users: plansCompanies.users,
         connections: plansCompanies.connections,
