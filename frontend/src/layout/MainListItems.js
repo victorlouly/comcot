@@ -232,37 +232,37 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/tickets"
         primary={i18n.t("mainDrawer.listItems.tickets")}
-        icon={<WhatsAppIcon />}
+        icon={<WhatsAppIcon style={{ fill: "#1057b2" }} />}
       />
 
      <ListItemLink
         to="/todolist"
         primary={i18n.t("mainDrawer.listItems.todolist")}
-        icon={<EventIcon />}
+        icon={<EventIcon style={{ fill: "#1057b2" }}  />}
         />
 
       <ListItemLink
         to="/quick-messages"
         primary={i18n.t("mainDrawer.listItems.quickMessages")}
-        icon={<FlashOnIcon />}
+        icon={<FlashOnIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
         to="/contacts"
         primary={i18n.t("mainDrawer.listItems.contacts")}
-        icon={<ContactPhoneOutlinedIcon />}
+        icon={<ContactPhoneOutlinedIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
         to="/schedules"
         primary={i18n.t("mainDrawer.listItems.schedules")}
-        icon={<EventIcon />}
+        icon={<EventIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
         to="/tags"
         primary={i18n.t("mainDrawer.listItems.tags")}
-        icon={<LocalOfferIcon />}
+        icon={<LocalOfferIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <ListItemLink
@@ -270,7 +270,7 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.chats")}
         icon={
           <Badge color="secondary" variant="dot" invisible={invisible}>
-            <ForumIcon />
+            <ForumIcon style={{ fill: "#1057b2" }}  />
           </Badge>
         }
       />
@@ -278,7 +278,7 @@ const MainListItems = (props) => {
       <ListItemLink
         to="/helps"
         primary={i18n.t("mainDrawer.listItems.helps")}
-        icon={<HelpOutlineIcon />}
+        icon={<HelpOutlineIcon style={{ fill: "#1057b2" }}  />}
       />
 
       <Can
@@ -297,15 +297,15 @@ const MainListItems = (props) => {
                   onClick={() => setOpenCampaignSubmenu((prev) => !prev)}
                 >
                   <ListItemIcon>
-                    <EventAvailableIcon />
+                    <EventAvailableIcon style={{ fill: "#1057b2" }}  />
                   </ListItemIcon>
                   <ListItemText
                     primary={i18n.t("mainDrawer.listItems.campaigns")}
                   />
                   {openCampaignSubmenu ? (
-                    <ExpandLessIcon />
+                    <ExpandLessIcon style={{ fill: "#1057b2" }}  />
                   ) : (
-                    <ExpandMoreIcon />
+                    <ExpandMoreIcon  style={{ fill: "#1057b2" }} />
                   )}
                 </ListItem>
                 <Collapse
@@ -317,7 +317,7 @@ const MainListItems = (props) => {
                   <List component="div" disablePadding>
                     <ListItem onClick={() => history.push("/campaigns")} button>
                       <ListItemIcon>
-                        <ListIcon />
+                        <ListIcon style={{ fill: "#1057b2" }}  />
                       </ListItemIcon>
                       <ListItemText primary="Listagem" />
                     </ListItem>
@@ -326,7 +326,7 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <PeopleIcon />
+                        <PeopleIcon style={{ fill: "#1057b2" }}  />
                       </ListItemIcon>
                       <ListItemText primary="Listas de Contatos" />
                     </ListItem>
@@ -335,7 +335,7 @@ const MainListItems = (props) => {
                       button
                     >
                       <ListItemIcon>
-                        <SettingsOutlinedIcon />
+                        <SettingsOutlinedIcon style={{ fill: "#1057b2" }}  />
                       </ListItemIcon>
                       <ListItemText primary="Configurações" />
                     </ListItem>
@@ -347,7 +347,7 @@ const MainListItems = (props) => {
               <ListItemLink
                 to="/announcements"
                 primary={i18n.t("mainDrawer.listItems.annoucements")}
-                icon={<AnnouncementIcon />}
+                icon={<AnnouncementIcon style={{ fill: "#1057b2" }}  />}
               />
             )}
             <ListItemLink
@@ -355,34 +355,34 @@ const MainListItems = (props) => {
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
-                  <SyncAltIcon />
+                  <SyncAltIcon  style={{ fill: "#1057b2" }} />
                 </Badge>
               }
             />
             <ListItemLink
               to="/queues"
               primary={i18n.t("mainDrawer.listItems.queues")}
-              icon={<AccountTreeOutlinedIcon />}
+              icon={<AccountTreeOutlinedIcon style={{ fill: "#1057b2" }}  />}
             />
             <ListItemLink
               to="/users"
               primary={i18n.t("mainDrawer.listItems.users")}
-              icon={<PeopleAltOutlinedIcon />}
+              icon={<PeopleAltOutlinedIcon style={{ fill: "#1057b2" }}  />}
             />
             <ListItemLink
               to="/messages-api"
               primary={i18n.t("mainDrawer.listItems.messagesAPI")}
-              icon={<CodeRoundedIcon />}
+              icon={<CodeRoundedIcon style={{ fill: "#1057b2" }}  />}
             />
              <ListItemLink
                 to="/financeiro"
                 primary={i18n.t("mainDrawer.listItems.financeiro")}
-                icon={<LocalAtmIcon />}
+                icon={<LocalAtmIcon style={{ fill: "#1057b2" }}  />}
               />
             <ListItemLink
               to="/settings"
               primary={i18n.t("mainDrawer.listItems.settings")}
-              icon={<SettingsOutlinedIcon />}
+              icon={<SettingsOutlinedIcon style={{ fill: "#1057b2" }}  />}
             />
 {/*             <ListItemLink
               to="/subscription"
