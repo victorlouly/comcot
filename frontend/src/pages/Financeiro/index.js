@@ -13,6 +13,8 @@ import Title from "../../components/Title";
 import SubscriptionModal from "../../components/SubscriptionModal";
 import api from "../../services/api";
 import TableRowSkeleton from "../../components/TableRowSkeleton";
+import { FloatingWhatsApp } from 'react-floating-whatsapp-button'
+import 'react-floating-whatsapp-button/dist/index.css'
 
 import toastError from "../../errors/toastError";
 
@@ -188,6 +190,16 @@ const Invoices = () => {
               <TableCell align="center">Ação</TableCell>
             </TableRow>
           </TableHead>
+          < FloatingWhatsApp  
+          phone="+5562982439372"
+          popupMessage="Olá, como podemos te ajudar ?"
+          backgroundColor="#1057b2"
+          position="right"
+          headerColor="#1057b2"
+          headerTitle="Suporte ComCot"
+          size="50px"
+          placeholder="Digite Aqui..."
+          /> 
           <TableBody>
             <>
               {invoices.map((invoices) => (

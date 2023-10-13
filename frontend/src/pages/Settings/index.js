@@ -11,6 +11,8 @@ import api from "../../services/api";
 import { i18n } from "../../translate/i18n.js";
 import toastError from "../../errors/toastError";
 import { socketConnection } from "../../services/socket";
+import { FloatingWhatsApp } from 'react-floating-whatsapp-button'
+import 'react-floating-whatsapp-button/dist/index.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -99,6 +101,16 @@ const Settings = () => {
           <Typography variant="body1">
             {i18n.t("settings.settings.userCreation.name")}
           </Typography>
+          < FloatingWhatsApp  
+          phone="+5562982439372"
+          popupMessage="Olá, como podemos te ajudar ?"
+          backgroundColor="#1057b2"
+          position="right"
+          headerColor="#1057b2"
+          headerTitle="Suporte ComCot"
+          size="50px"
+          placeholder="Digite Aqui..."
+          /> 
           <Select
             margin="dense"
             variant="outlined"
