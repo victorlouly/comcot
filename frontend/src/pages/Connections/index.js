@@ -105,9 +105,9 @@ const CustomToolTip = ({ title, content, children }) => {
 const IconChannel = (channel) => {
   switch (channel) {
     case "facebook":
-      return <Facebook />;
+      return <LockOutlinedIcon />;
     case "instagram":
-      return <Instagram />;
+      return <LockOutlinedIcon />;
     case "whatsapp":
       return <WhatsApp />;
     default:
