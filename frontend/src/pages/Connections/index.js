@@ -5,7 +5,7 @@ import { format, parseISO } from "date-fns";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import PopupState, { bindTrigger, bindMenu } from "material-ui-popup-state";
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+
 
 import { makeStyles } from "@material-ui/core/styles";
 import { green } from "@material-ui/core/colors";
@@ -105,9 +105,9 @@ const CustomToolTip = ({ title, content, children }) => {
 const IconChannel = (channel) => {
   switch (channel) {
     case "facebook":
-      return <LockOutlinedIcon />;
+      return <Facebook />;
     case "instagram":
-      return <LockOutlinedIcon />;
+      return <Instagram />;
     case "whatsapp":
       return <WhatsApp />;
     default:
