@@ -88,6 +88,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+useEffect(() => {
+  async function fetchData() {
+  if (!user.super) {
+  toast.error("Sem permissão");
+  setTimeout(() => {
+  history.push(`/`)
+  }, 500);
+  }
+  }
+  fetchData();
+  }, []);
+
 const Announcements = () => {
   const classes = useStyles();
 
